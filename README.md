@@ -1,7 +1,7 @@
-**News Management application, frontend.**<br/>
+**News Manager application, frontend.**<br/>
 =====================================
 
-The project implements frontend part of news_management application with ReactJS.<br/>
+The project implements frontend part of news_manager application with ReactJS.<br/>
 
 The whole application is a create-read-update-delete system, that allows user to operate with news and related entities.<br/>
 Implemented features:
