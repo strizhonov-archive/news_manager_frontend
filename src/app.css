@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    background: #32353a;
+    font-size: 15px;
+    color: #b7bcbe;
+    font-family: Montserrat, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    color: #fff;
+}
+
+input {
+    color: white;
+}
+
+.generic-button {
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #4e91c9;
+    transition: all 0.5s;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.generic-button:hover {
+    background-color: #fff;
+    color: #4e91c9;
+}
+
+.red-background-button {
+    background-color: #c9545e;
+}
+
+.red-background-button:hover {
+    color: #c9545e;
+}
+
+.purple-background-button {
+    background-color: #8550c9;
+}
+
+.purple-background-button:hover {
+    color: #8550c9;
+}
+
+.light-blue-background-button {
+    background-color: #63a6c9;
+}
+
+.light-blue-background-button:hover {
+    color: #63a6c9;
+}
+
+.list-item {
+    background: #4d535b;
+    padding: 15px;
+    border: none;
+}
+
+.list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.list button, .list-item {
+    margin-bottom: 5px;
+}
+
+.right-border {
+    border-right: 1px solid #32353a;
+}
+
+.pagination {
+    background-color: #3e4146;
+    padding: 15px 20px;
+    margin: 3px;
+    border: none;
+    border-radius: 0;
+}
+
+.pagination:hover {
+    background-color: #57636e;
+}
+
+.pagination-current {
+    background-color: #57636e;
+    border: none;
+    border-radius: 0;
+    padding: 15px 20px;
+    margin: 3px;
+}
+
+.pagination-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-button, .right-button, .search-button {
+    height: 52px;
+}
+
+.left-button, .right-button {
+    padding: 15px 10px;
+    width: 32px;
+}
+
+.search-button {
+    padding: 15px;
+    width: 52px;
+    float: right;
+}
+
+.search-button:hover {
+    background-color: #4e91c9;
+}
+
+button img {
+    max-width: 100%;
+}

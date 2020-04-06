@@ -1,0 +1,91 @@
+.news-item-block {
+    width: 100%;
+    background: #4d535b;
+    margin-bottom: 10px;
+    padding: 35px;
+}
+
+.author {
+    margin-bottom: 15px;
+}
+
+.short-text {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.full-text {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.tags {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.tag-in-news {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 10px;
+    background: rgb(76, 103, 139);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 3px;
+}
+
+.news-form-block {
+    background: #3e4146;
+    padding: 20px;
+}
+
+.news-form-block input, .news-form-block textarea, .search-block input {
+    background: #4d535b;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.news-form-block input, .search-block input {
+    margin: 0 0 20px;
+}
+
+.news-form-block input::placeholder, .news-form-block textarea::placeholder, .search-block input::placeholder {
+    color: #acb6c3;
+}
+
+.author-select {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tags-select {
+    padding: 0;
+    background: #4d535b;
+    width: 100%;
+    margin: 0 0 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.tags-select li {
+    background: #4d535b;
+}
+
+.divider {
+    height: 20px;
+}
+
+.search-block {
+    margin-top: 15px;
+    background: #3e4146;
+    padding: 20px;
+    display: none;
+}
+

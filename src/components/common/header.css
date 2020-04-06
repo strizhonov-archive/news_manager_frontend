@@ -1,0 +1,56 @@
+.site-header {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #46494f;
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+
+.site-branding {
+    font-size: 33px;
+    color: #fff;
+}
+
+.lang-navigation {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.lang-navigation li {
+    display: inline-block;
+}
+
+.lang-button {
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.lang-button:hover {
+    background: #4e91c9;
+    color: #fff;
+}
+
+.login-button-block {
+    text-align: right;
+    margin-top: 35px;
+}
+
+.login-button-block li {
+    display: inline-block;
+}
+
+.login-button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: #4e91c9;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.login-button:hover {
+    background-color: #fff;
+    border-color: #4e91c9;
+    color: #4e91c9;
+}
+
